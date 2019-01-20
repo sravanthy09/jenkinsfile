@@ -7,7 +7,7 @@ node {
    stage 'checkout'
 
    // Get some code from a GitHub repository
-   git url: 'https://github.com/sravanthy09/jenkinsfile/blob/master/Jenkinsfile'
+   git url: 'https://github.com/sravanthy09/jenkinsfile.git'
    sh 'git clean -fdx; sleep 4;'
 
    // Get the maven tool.
